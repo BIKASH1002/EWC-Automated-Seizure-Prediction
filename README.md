@@ -90,6 +90,12 @@ Best Filter: Butterworth Wavelet denoising filter with SNR of 24.11 dB.
     </tr>
 </table>
 
+# Conclusion
+
+Creating a predictive model for epilepsy using deep learning and continual learning is a big step forward in epilepsy management.
+By using Googlenet as the transfer learning model we achieved the highest accuracy of 97% in training our dataset. 
+Also, by using Elastic Weight Consolidation (EWC) as the continual learning technique with a learning rate scheduler our model enhanced the accuracy to 98.7%. Unlike older models that stay the same our continual learning model can learn from new information while still remembering what it has learnt before. This flexibility has made our model better at predicting seizures and giving timely alerts. 
+
 # Credits
 
 **1) Dataset link:** https://data.world/uci/epileptic-seizure-recognition
