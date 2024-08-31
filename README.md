@@ -1,5 +1,7 @@
 # Epileptic Seizure Prediction Using Deep Learning and Continual Learning
 
+<div  align = "justify">
+    
 # Overview
 
 This project presents a deep learning framework for predicting seizures in patients with Temporal Lobe Epilepsy (TLE). The research utilizes advanced memory-based learning approaches, including transfer learning and Recurrent Neural Networks (RNNs), combined with continual learning techniques to enhance model adaptability. The study employs EEG signals and a comprehensive set of deep learning models to classify seizures with high accuracy.
@@ -32,6 +34,8 @@ Jupyter Notebook (for interactive development)
 
 **3)** Continual Learnining: Elastic Weight Consolidation (EWC)
 
+<div  align = "justify">
+
 # Design
 
 <p align="center">
@@ -40,6 +44,8 @@ Jupyter Notebook (for interactive development)
 
 # Implementation
 
+<div  align = "justify">
+    
 **1) Data Preprocessing:**
 Handle missing values through mean imputation. Noise filtering using hybrid filters, with the Butterworth-Wavelet denoising filter achieving the highest signal-to-noise ratio (24.11 dB).
 
@@ -49,6 +55,8 @@ GoogLeNet achieved the best results in initial training with 97.5% accuracy.
 
 **3) Continual Learning:**
 Implement Elastic Weight Consolidation (EWC) to improve the model’s adaptability while retaining previous knowledge. Fine-tune the model with a custom learning rate scheduler to enhance overall accuracy to 98.7%.
+
+</div>
 
 # Results
 
@@ -73,6 +81,7 @@ Best Filter: Butterworth Wavelet denoising filter with SNR of 24.11 dB.
 
 **GRAPHICAL ANALYISIS**
 
+<div  align = "center">
 <table>
     <tr>
         <td>
@@ -89,12 +98,15 @@ Best Filter: Butterworth Wavelet denoising filter with SNR of 24.11 dB.
         </td>
     </tr>
 </table>
+</div>
 
 # Conclusion
 
+<div  align = "justify">
 Creating a predictive model for epilepsy using deep learning and continual learning is a big step forward in epilepsy management.
 By using Googlenet as the transfer learning model we achieved the highest accuracy of 97% in training our dataset. 
 Also, by using Elastic Weight Consolidation (EWC) as the continual learning technique with a learning rate scheduler our model enhanced the accuracy to 98.7%. Unlike older models that stay the same our continual learning model can learn from new information while still remembering what it has learnt before. This flexibility has made our model better at predicting seizures and giving timely alerts. 
+</div>
 
 # Credits
 
