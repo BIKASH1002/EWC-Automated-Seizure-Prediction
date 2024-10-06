@@ -22,7 +22,7 @@ The framework integrates various phases, including data acquisition, preprocessi
 
 # Setup 
 
-Jupyter Notebook (for interactive development)
+**Jupyter Notebook:** for development
 
 **Libraries:** numPy, pandas, matplotlib, scikit-learn, pywt, tensorflow
 
