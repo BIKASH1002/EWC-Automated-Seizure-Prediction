@@ -4,7 +4,7 @@
     
 # Overview
 
-This project presents a deep learning framework for predicting seizures in patients with Temporal Lobe Epilepsy (TLE). The research utilizes advanced memory-based learning approaches, including transfer learning and Recurrent Neural Networks (RNNs), combined with continual learning techniques to enhance model adaptability. The study employs EEG signals and a comprehensive set of deep learning models to classify seizures with high accuracy.
+This project presents a deep learning framework for predicting seizures in patients with Temporal Lobe Epilepsy (TLE). The project utilizes advanced memory-based learning approaches, including transfer learning and Recurrent Neural Networks (RNNs), combined with continual learning techniques to enhance model adaptability. The work employs EEG signals and a comprehensive set of deep learning models to classify seizures with high accuracy.
 
 # Problem Statement
 
